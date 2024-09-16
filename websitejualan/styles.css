@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cor.jfif');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+
+.slides {
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 300px; /* Adjust the height as needed */
+    position: relative;
+}
+
+.slide-img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.slide-text {
+    max-width: 50%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
